@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+
+    android:orientation="vertical">
+
+    <!-- Bouton Toast -->
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Hello Toast"
+        android:background="#3A3AC5"
+        android:titleTextColor="@color/white"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/toast"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cornerRadius="0dp"
+        android:textSize="20sp"/>
+
+    <!-- TextView pour l'affichage du compteur -->
+    <TextView
+        android:id="@+id/zero"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:textSize="300sp"
+        android:text="@string/zero"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#3E3ECA"
+        android:text="@string/count"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cornerRadius="0dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
